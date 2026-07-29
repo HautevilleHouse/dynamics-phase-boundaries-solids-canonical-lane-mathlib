@@ -1,0 +1,19 @@
+import HautevilleHouse.DynamicsPhaseBoundariesSolidsCanonicalLaneLean.PhaseFieldModel
+import HautevilleHouse.DynamicsPhaseBoundariesSolidsCanonicalLaneLean.CahnHilliardEquation
+import HautevilleHouse.DynamicsPhaseBoundariesSolidsCanonicalLaneLean.AllenCahnEquation
+import HautevilleHouse.DynamicsPhaseBoundariesSolidsCanonicalLaneLean.SharpInterfaceLimit
+import HautevilleHouse.DynamicsPhaseBoundariesSolidsCanonicalLaneLean.FinalTheorem
+
+namespace HautevilleHouse
+namespace DynamicsPhaseBoundariesSolidsCanonicalLaneLean
+
+-- Root module: aggregating all components of the canonical lane
+
+def rootModuleChecked : Prop :=
+  True
+
+theorem root_module_imports_ok : rootModuleChecked :=
+  True.intro
+
+end DynamicsPhaseBoundariesSolidsCanonicalLaneLean
+end HautevilleHouse
